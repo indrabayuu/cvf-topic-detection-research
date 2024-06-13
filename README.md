@@ -2,8 +2,6 @@
   <img src="Plot/architecture (1).png">
 </p>
 
-> Figure 1. Proposed topic detection system on CFV conference papers
-
 # Topic Detection on Computer Vision Foundation (CVF)
 This paper aims to ...
 
@@ -30,11 +28,12 @@ As discussed earlier and illustrated in Fig. 2, each of these sub-conferences re
 ## Insight of CVF Conference Topic Detection
 <p align="justify">
 Reflecting on the title and abstract results, topic detection at CVF conferences highlights evolving research trends. Object detection and image segmentation consistently emerge as prominent subjects, indicating ongoing improvements for faster and better performance. In the early years of CVPR and ICCV, traditional machine learning approaches, such as random forests, were common. However, around the mid-2010s, there was a shift toward deep learning, evidenced by the increasing prominence of terms like "neural network" and "CNN." More recently, trends have shifted again towards generative models, with terms like "GANs" and "transformers" becoming more common. These trends illustrate a dynamic research landscape, reflecting the evolution of AI and technology in addressing computer vision challenges. Table I summarizes the key topics identified in both titles and abstracts across all CVF sub-conferences.
+</p>
 
-<img src="Plot/title-coherence.png">
+<p>
+  <img src="Plot/title-coherence.png" width="600">
 
 > _Figure 3. Illustrates a comparison of coherence scores for CVF sub-conference papers from 2023, reflecting their significant recent contributions. The comparison focuses on coherence scores between BERTopic and LDA based on paper titles. Higher coherence scores indicate better quality in the generated topics. In the figure, BERTopic is represented by solid blue lines, while LDA is depicted with dotted red lines._ 
-
 </p>
 
 <p align="justify">
